@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40EB38726D344E80019D2D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB38626D344E80019D2D4 /* AppDelegate.swift */; };
+		C40EB38926D344E80019D2D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB38826D344E80019D2D4 /* SceneDelegate.swift */; };
+		C40EB38B26D344E80019D2D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB38A26D344E80019D2D4 /* ViewController.swift */; };
+		C40EB38E26D344E80019D2D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40EB38C26D344E80019D2D4 /* Main.storyboard */; };
+		C40EB39026D344E90019D2D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C40EB38F26D344E90019D2D4 /* Assets.xcassets */; };
+		C40EB39326D344E90019D2D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C40EB39126D344E90019D2D4 /* LaunchScreen.storyboard */; };
+		C40EB39E26D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB39D26D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests.swift */; };
+		C40EB3A926D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40EB3A826D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C40EB39A26D344EA0019D2D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40EB37B26D344E80019D2D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40EB38226D344E80019D2D4;
+			remoteInfo = Ch15_CameraPhotoLibrary_Quiz;
+		};
+		C40EB3A526D344EA0019D2D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C40EB37B26D344E80019D2D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C40EB38226D344E80019D2D4;
+			remoteInfo = Ch15_CameraPhotoLibrary_Quiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C40EB38326D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ch15_CameraPhotoLibrary_Quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40EB38626D344E80019D2D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C40EB38826D344E80019D2D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C40EB38A26D344E80019D2D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C40EB38D26D344E80019D2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C40EB38F26D344E90019D2D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C40EB39226D344E90019D2D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C40EB39426D344E90019D2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40EB39926D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ch15_CameraPhotoLibrary_QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40EB39D26D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch15_CameraPhotoLibrary_QuizTests.swift; sourceTree = "<group>"; };
+		C40EB39F26D344EA0019D2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C40EB3A426D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ch15_CameraPhotoLibrary_QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40EB3A826D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch15_CameraPhotoLibrary_QuizUITests.swift; sourceTree = "<group>"; };
+		C40EB3AA26D344EA0019D2D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C40EB38026D344E80019D2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40EB39626D344EA0019D2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40EB3A126D344EA0019D2D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40EB37A26D344E80019D2D4 = {
+			isa = PBXGroup;
+			children = (
+				C40EB38526D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz */,
+				C40EB39C26D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests */,
+				C40EB3A726D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests */,
+				C40EB38426D344E80019D2D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C40EB38426D344E80019D2D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C40EB38326D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz.app */,
+				C40EB39926D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests.xctest */,
+				C40EB3A426D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C40EB38526D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				C40EB38626D344E80019D2D4 /* AppDelegate.swift */,
+				C40EB38826D344E80019D2D4 /* SceneDelegate.swift */,
+				C40EB38A26D344E80019D2D4 /* ViewController.swift */,
+				C40EB38C26D344E80019D2D4 /* Main.storyboard */,
+				C40EB38F26D344E90019D2D4 /* Assets.xcassets */,
+				C40EB39126D344E90019D2D4 /* LaunchScreen.storyboard */,
+				C40EB39426D344E90019D2D4 /* Info.plist */,
+			);
+			path = Ch15_CameraPhotoLibrary_Quiz;
+			sourceTree = "<group>";
+		};
+		C40EB39C26D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				C40EB39D26D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests.swift */,
+				C40EB39F26D344EA0019D2D4 /* Info.plist */,
+			);
+			path = Ch15_CameraPhotoLibrary_QuizTests;
+			sourceTree = "<group>";
+		};
+		C40EB3A726D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C40EB3A826D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests.swift */,
+				C40EB3AA26D344EA0019D2D4 /* Info.plist */,
+			);
+			path = Ch15_CameraPhotoLibrary_QuizUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C40EB38226D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40EB3AD26D344EA0019D2D4 /* Build configuration list for PBXNativeTarget "Ch15_CameraPhotoLibrary_Quiz" */;
+			buildPhases = (
+				C40EB37F26D344E80019D2D4 /* Sources */,
+				C40EB38026D344E80019D2D4 /* Frameworks */,
+				C40EB38126D344E80019D2D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ch15_CameraPhotoLibrary_Quiz;
+			productName = Ch15_CameraPhotoLibrary_Quiz;
+			productReference = C40EB38326D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C40EB39826D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40EB3B026D344EA0019D2D4 /* Build configuration list for PBXNativeTarget "Ch15_CameraPhotoLibrary_QuizTests" */;
+			buildPhases = (
+				C40EB39526D344EA0019D2D4 /* Sources */,
+				C40EB39626D344EA0019D2D4 /* Frameworks */,
+				C40EB39726D344EA0019D2D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40EB39B26D344EA0019D2D4 /* PBXTargetDependency */,
+			);
+			name = Ch15_CameraPhotoLibrary_QuizTests;
+			productName = Ch15_CameraPhotoLibrary_QuizTests;
+			productReference = C40EB39926D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C40EB3A326D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C40EB3B326D344EA0019D2D4 /* Build configuration list for PBXNativeTarget "Ch15_CameraPhotoLibrary_QuizUITests" */;
+			buildPhases = (
+				C40EB3A026D344EA0019D2D4 /* Sources */,
+				C40EB3A126D344EA0019D2D4 /* Frameworks */,
+				C40EB3A226D344EA0019D2D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40EB3A626D344EA0019D2D4 /* PBXTargetDependency */,
+			);
+			name = Ch15_CameraPhotoLibrary_QuizUITests;
+			productName = Ch15_CameraPhotoLibrary_QuizUITests;
+			productReference = C40EB3A426D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C40EB37B26D344E80019D2D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C40EB38226D344E80019D2D4 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C40EB39826D344EA0019D2D4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C40EB38226D344E80019D2D4;
+					};
+					C40EB3A326D344EA0019D2D4 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C40EB38226D344E80019D2D4;
+					};
+				};
+			};
+			buildConfigurationList = C40EB37E26D344E80019D2D4 /* Build configuration list for PBXProject "Ch15_CameraPhotoLibrary_Quiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C40EB37A26D344E80019D2D4;
+			productRefGroup = C40EB38426D344E80019D2D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C40EB38226D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz */,
+				C40EB39826D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests */,
+				C40EB3A326D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C40EB38126D344E80019D2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40EB39326D344E90019D2D4 /* LaunchScreen.storyboard in Resources */,
+				C40EB39026D344E90019D2D4 /* Assets.xcassets in Resources */,
+				C40EB38E26D344E80019D2D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40EB39726D344EA0019D2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40EB3A226D344EA0019D2D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C40EB37F26D344E80019D2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40EB38B26D344E80019D2D4 /* ViewController.swift in Sources */,
+				C40EB38726D344E80019D2D4 /* AppDelegate.swift in Sources */,
+				C40EB38926D344E80019D2D4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40EB39526D344EA0019D2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40EB39E26D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40EB3A026D344EA0019D2D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C40EB3A926D344EA0019D2D4 /* Ch15_CameraPhotoLibrary_QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C40EB39B26D344EA0019D2D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40EB38226D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz */;
+			targetProxy = C40EB39A26D344EA0019D2D4 /* PBXContainerItemProxy */;
+		};
+		C40EB3A626D344EA0019D2D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C40EB38226D344E80019D2D4 /* Ch15_CameraPhotoLibrary_Quiz */;
+			targetProxy = C40EB3A526D344EA0019D2D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C40EB38C26D344E80019D2D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40EB38D26D344E80019D2D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C40EB39126D344E90019D2D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C40EB39226D344E90019D2D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C40EB3AB26D344EA0019D2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C40EB3AC26D344EA0019D2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C40EB3AE26D344EA0019D2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ch15_CameraPhotoLibrary_Quiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bard.Ch15-CameraPhotoLibrary-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C40EB3AF26D344EA0019D2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ch15_CameraPhotoLibrary_Quiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bard.Ch15-CameraPhotoLibrary-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C40EB3B126D344EA0019D2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ch15_CameraPhotoLibrary_QuizTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bard.Ch15-CameraPhotoLibrary-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ch15_CameraPhotoLibrary_Quiz.app/Ch15_CameraPhotoLibrary_Quiz";
+			};
+			name = Debug;
+		};
+		C40EB3B226D344EA0019D2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ch15_CameraPhotoLibrary_QuizTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bard.Ch15-CameraPhotoLibrary-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ch15_CameraPhotoLibrary_Quiz.app/Ch15_CameraPhotoLibrary_Quiz";
+			};
+			name = Release;
+		};
+		C40EB3B426D344EA0019D2D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ch15_CameraPhotoLibrary_QuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bard.Ch15-CameraPhotoLibrary-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ch15_CameraPhotoLibrary_Quiz;
+			};
+			name = Debug;
+		};
+		C40EB3B526D344EA0019D2D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Ch15_CameraPhotoLibrary_QuizUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Bard.Ch15-CameraPhotoLibrary-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ch15_CameraPhotoLibrary_Quiz;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C40EB37E26D344E80019D2D4 /* Build configuration list for PBXProject "Ch15_CameraPhotoLibrary_Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40EB3AB26D344EA0019D2D4 /* Debug */,
+				C40EB3AC26D344EA0019D2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40EB3AD26D344EA0019D2D4 /* Build configuration list for PBXNativeTarget "Ch15_CameraPhotoLibrary_Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40EB3AE26D344EA0019D2D4 /* Debug */,
+				C40EB3AF26D344EA0019D2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40EB3B026D344EA0019D2D4 /* Build configuration list for PBXNativeTarget "Ch15_CameraPhotoLibrary_QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40EB3B126D344EA0019D2D4 /* Debug */,
+				C40EB3B226D344EA0019D2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C40EB3B326D344EA0019D2D4 /* Build configuration list for PBXNativeTarget "Ch15_CameraPhotoLibrary_QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C40EB3B426D344EA0019D2D4 /* Debug */,
+				C40EB3B526D344EA0019D2D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C40EB37B26D344E80019D2D4 /* Project object */;
+}
